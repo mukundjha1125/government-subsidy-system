@@ -1,0 +1,22 @@
+# IntelliJ
+.idea/
+*.iml
+
+# Java / Maven
+target/
+backend/target/
+
+# React / Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+
+# Environment files
+.env
+frontend/.env
+
+# Backend configuration containing secrets
+backend/src/main/resources/application.properties
+
+# Logs
+*.log
